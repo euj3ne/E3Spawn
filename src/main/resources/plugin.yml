@@ -1,0 +1,12 @@
+name: ${project.name}
+version: ${project.version}
+main: ${groupId}.E3Spawn
+api-version: '1.21'
+authors: [euj3ne]
+description: ${project.description}
+website: ${project.url}
+depend: []
+commands:
+  setspawn:
+    description: Set the global spawn point to your current position.
+    usage: /setspawn
